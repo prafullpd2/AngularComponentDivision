@@ -1,0 +1,11 @@
+
+<div (click)="removeServer()" class="server">
+    <div class="margin_10 vertical_center_text server_name" >
+            <!-- <span class="text-margin">{{ serverName }} </span> -->
+            <span class="text-margin">{{ element.serverName }} </span>
+
+    </div>
+    <div class="margin_10 vertical_center_text server_desc" >
+        <span class="text-margin " [ngClass]=" element.isBluePrint ? 'blue_print' : 'normal_server' ">{{ element.serverDesc }}</span>
+    </div>
+</div>

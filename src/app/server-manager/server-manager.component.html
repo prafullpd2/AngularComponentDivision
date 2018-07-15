@@ -1,0 +1,15 @@
+<div>
+
+  <div>
+    <input placeholder="Server Name" type="text" [(ngModel)]='serverName' class="form-control inline width_20 margin_20px">
+    <input placeholder="Server Description" type="text" [(ngModel)]='serverDesc' class="form-control inline width_20 margin_20px">
+
+    <button class='btn btn-primary primary inline margin_20px'
+    (click)="onAddServer(serverName, serverDesc, false)" [disabled]="!(serverName && serverDesc)" >Add Server</button>
+
+    <button class='btn btn-primary primary inline margin_20px'
+    (click)="onAddServer(serverName, serverDesc, true)" [disabled]="!(serverName && serverDesc)" >Add Server Blueprint</button>
+  </div> 
+  <hr class="margin_20px">
+
+</div>

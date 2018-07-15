@@ -1,1 +1,87 @@
 /* You can add global styles to this file, and also import other style files */
+.margin_10{
+    margin: 10px;
+}
+.width_70{
+    width: 70%;
+}
+.width_90{
+    width: 90%;
+}
+
+.height_30{
+    height: 30px;
+}
+.vertical_center_text{
+    vertical-align: middle;
+}
+
+.overflow-auto{
+    overflow: auto;
+}
+.inline{
+    display: inline;
+}
+.width_20{
+    width: 20%;
+}
+.margin_20px{
+    margin: 20px;
+}
+.horizontal_center{
+    margin: 0 auto;
+}
+.text-margin{
+    margin: 0 0 0 1cm;
+}
+.server_color{
+    background-color:  rgb(253, 244, 223);
+}
+.server{
+    background-color:  rgb(240, 240, 249);
+    margin: 0 0 0.2cm 0.2cm;
+    vertical-align: middle;
+    width: 60%;
+    overflow: auto;
+    border-radius: 0.2cm;
+    border: 1px solid #949c94;
+
+}
+.server_name{
+    padding: 0.3cm 0 0.3cm 0;
+    margin: 0.2cm 0.2cm 0 0.2cm;
+    background-color: rgb(209, 211, 212);
+    border-radius: 0.2cm 0.2cm 0 0;
+    border: 1px solid #b3a8a8;
+    border-width: 1px 1px 0 1px ;
+
+}
+.server_desc{
+    padding: 0.5cm 0 0.5cm 0;
+    margin: 0 0.2cm 0.2cm 0.2cm;
+    background-color: rgb(230, 237, 222);
+    border: 1px solid #b3a8a8;
+    border-width: 0 1px 1px 1px ;
+    border-radius: 0 0 0.2cm 0.2cm;
+}
+.blue_print{
+color: blue;
+font-style: italic;
+}
+.normal_server{
+    color: green;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { ServerComponent } from './server/server.component';
+
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  //serverList: ServerComponent[] = [ new ServerComponent("DemoName","demoDesc") ];
+  serverList = [];
+  onServerCreated(serverData:{serverName:string,serverDesc:string,isBluePrint:boolean}){
+    this.serverList.push(serverData);
+  }
+
 }
